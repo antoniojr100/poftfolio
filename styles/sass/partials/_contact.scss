@@ -1,0 +1,13 @@
+@use "./variables" as *;
+
+#contact{
+    background-color: $button2;
+    h2{
+        text-align: center;
+    }
+    #contactList{
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+    }
+}

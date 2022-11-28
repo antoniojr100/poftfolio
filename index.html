@@ -22,29 +22,31 @@
         <div class="wrapper">
             <!-- Nav -->
             <nav>
-                <ul>
-                    <li><a href="#home" class="navItem">Home</a></li>
-                    <li><a href="#about" class="navItem">About</a></li>
-                    <li><a href="#projects" class="navItem">Projects</a></li>
-                    <li><a href="#contact" class="navItem">Contact</a></li>
+                <ul id="navContainer">
+                    <li class="navItem"><a href="#home" class="navItem">Home</a></li>
+                    <li class="navItem"><a href="#about" class="navItem">About</a></li>
+                    <li class="navItem"><a href="#projects" class="navItem">Projects</a></li>
+                    <li class="navItem"><a href="#contact" class="navItem">Contact</a></li>
                 </ul>
             </nav>
             <!-- Header Container -->
-            <div class="headerContainer">
+            <div id="headerContainer">
                 <h1 class="mainHeader">Antonio Arredondo</h1>
-                <h3 class="positionTitle">Toronto based Web Developer | Front-End Developer</h3>
-                <button href="#contact" class="buttonText">get in touch</button>
+                <h3 id="positionTitle">Toronto based Web Developer</h3>
+                <a href="#contact" class="buttonText button">
+                    get in touch
+                </a>
             </div>
         </div>
     </header>
     <!-- About -->
-    <section id="about">
-        <div class="wrapper">
+    <section id="about" class="blackText">
+        <div class="wrapper aboutContainer">
             <div class="headshotContainer">
                 <!-- <img src="" alt=""> -->
             </div>
             <h2 class="subHeading">About Me</h2>
-            <p class="bodyText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam esse a suscipit accusamus velit cupiditate consequatur commodi praesentium debitis dignissimos enim doloribus expedita consectetur, quibusdam hic optio necessitatibus. Assumenda dolores praesentium molestias voluptatem quia sint quasi repudiandae perspiciatis, unde ut. Quidem, cumque.</p>
+            <p class="bodyText aboutText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam esse a suscipit accusamus velit cupiditate consequatur commodi praesentium debitis dignissimos enim doloribus expedita consectetur, quibusdam hic optio necessitatibus. Assumenda dolores praesentium molestias voluptatem quia sint quasi repudiandae perspiciatis, unde ut. Quidem, cumque.</p>
         </div>
     </section>
 
@@ -59,7 +61,7 @@
                         <i class="devicon-html5-plain skillsIcon"></i>
                     </div>
 
-                    <p class="iconName"></p>
+                    <p class="iconName">Html</p>
                 </li>
 
                 <!-- css -->
@@ -68,7 +70,7 @@
                         <i class="devicon-css3-plain skillsIcon"></i>
                     </div>
 
-                    <p class="iconName"></p>
+                    <p class="iconName">Css</p>
                 </li>
 
                 <!-- sass -->
@@ -77,7 +79,7 @@
                         <i class="devicon-sass-original skillsIcon"></i>
                     </div>
                     
-                    <p class="iconName"></p>
+                    <p class="iconName">Sass</p>
                 </li>
 
                 <!-- javascript -->
@@ -86,7 +88,7 @@
                         <i class="devicon-javascript-plain skillsIcon"></i>
                     </div>
                     
-                    <p class="iconName"></p>
+                    <p class="iconName">JavaScript</p>
                 </li>
 
                 <!-- react -->
@@ -95,7 +97,7 @@
                         <i class="devicon-react-original skillsIcon"></i>
                     </div>
                     
-                    <p class="iconName"></p>
+                    <p class="iconName">React</p>
                 </li>
 
                 <!-- github/git -->
@@ -104,7 +106,7 @@
                         <i class="devicon-github-original skillsIcon"></i>
                     </div>
                     
-                    <p class="iconName"></p>
+                    <p class="iconName">Github/Git</p>
                 </li>
 
                 <!-- firebase -->
@@ -113,14 +115,14 @@
                         <i class="devicon-firebase-plain skillsIcon"></i>
                     </div>
 
-                    <p class="iconName"></p>
+                    <p class="iconName">Firebase</p>
                 </li>
             </ul>
         </div>
     </section>
 
     <!-- Projects -->
-    <section id="projects">
+    <section id="projects" class="blackText">
         <div class="wrapper">
 
             <h2 class="subHeading">Projects</h2>
@@ -140,8 +142,8 @@
                         <p class="bodyText">project1 project1 project1 project1 project1</p>
                         
                         <div class="projectButtons">
-                            <button>view live</button>
-                            <button>view code</button>
+                            <button class="buttonText button">view live</button>
+                            <button class="buttonText button">view code</button>
                         </div>
                     </div>
                 </li>
@@ -160,8 +162,8 @@
                         <p class="bodyText">project2 project2 project2 project2 project2</p>
 
                         <div class="projectButtons">
-                            <button>view live</button>
-                            <button>view code</button>
+                            <button class="buttonText button">view live</button>
+                            <button class="buttonText button">view code</button>
                         </div>
                     </div>
                 </li>
@@ -180,8 +182,8 @@
                         <p class="bodyText">project3 project3 project3 project3 project3</p>
                         
                         <div class="projectButtons">
-                            <button>view live</button>
-                            <button>view code</button>
+                            <button class="buttonText button">view live</button>
+                            <button class="buttonText button">view code</button>
                         </div>
                     </div>
                 </li>
@@ -194,24 +196,24 @@
     <section id="contact">
         <div class="wrapper">
             <h2 class="subHeading">Get in Touch</h2>
-            <ul class="contactList">
+            <ul id="contactList">
                 <!-- linkedIn -->
                 <li class="contactIcons">
                     <i class="devicon-linkedin-plain"></i>
                 </li>
                 
                 <!-- github -->
-                <li>
+                <li class="contactIcons">
                     <i class="devicon-github-original"></i>
                 </li>
                 
                 <!-- twitter -->
-                <li>
+                <li class="contactIcons">
                     <i class="devicon-twitter-original"></i>
                 </li>
                 
                 <!-- email -->
-                <li>
+                <li class="contactIcons">
                     <i class="fa-solid fa-envelope"></i>
                 </li>
             </ul>
@@ -233,7 +235,7 @@
             <textarea class="formLabels" id="formTextarea" cols="30" rows="10"></textarea>
 
             <!-- Submit -->
-            <button class="buttonText">Submit</button>
+            <button class="buttonText button">Submit</button>
         </form>
     </section>
 

@@ -1,4 +1,11 @@
 @use "./partials/setup";
 @use "./partials/variables";
 @use "./partials/typography";
-@use "./partials/nav";
+
+@use "./partials/global";
+@use "./partials/buttons";
+
+@use "./partials/header";
+@use "./partials/aboutAndSkills";
+@use "./partials/projects";
+@use "./partials/contact";

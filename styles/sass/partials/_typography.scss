@@ -4,20 +4,22 @@
 html{
     font-family: $mainFont;
     font-size: 125%;
+    color: $whiteSmoke;
 }
 
 .mainHeader{
-
+    font-size: 4rem;
+    margin-bottom: 0;
 }
 
 // h2
 .subHeading{
-
+    font-size: 2.8rem;
 }
 
 // h3
-.positionTitle{
-
+#positionTitle{
+    font-size: 1.6rem;
 }
 
 // h4
@@ -27,17 +29,25 @@ html{
 
 // a
 .navItem{
-
+    font-weight: bold;
+    transition-duration: .1s;
+    &:hover{
+        transform: scale(1.3);
+        transition-duration: .1s;
+    }
 }
 
 // button, a
 .buttonText{
-
+    color: $button2;
+    font-weight: normal;
 }
 
 // p
 .bodyText{
-
+    line-height: 1.75rem;
+    font-weight: normal;
+    font-size: 1.1rem;
 }
 
 // p
@@ -51,18 +61,23 @@ html{
 }
 
 // i
-.skillIcons{
-
+.skillsIcon{
+    color: $navy;
+    font-size: 3.5rem;
 }
 
 // p
 .iconName{
-    
+    text-transform: uppercase;
+    text-align: center;
+    color: $navy;
+    font-weight: bold;
 }
 
 // i
 .contactIcons{
-
+    color: $button1;
+    font-size: 1.5rem;
 }
 
 // input, textarea

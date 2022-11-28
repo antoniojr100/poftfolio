@@ -1,0 +1,39 @@
+@use "./variables" as *;
+
+// NAV
+nav{
+    margin: 0 auto;
+    height: 10vh;
+    #navContainer{
+        margin: 0 auto;
+        padding: 0;
+        list-style-type: none;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        li{
+            margin: 0.75rem 0 0 0;
+            padding: 0 2.25rem;
+            a{
+                color: $whiteSmoke;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+// HEADER
+#home{
+    margin: 0 auto;
+    height: 95vh;
+    background-color: $greyPurple;
+    #headerContainer{
+        text-align: center;
+        margin: 15% 0;
+    }
+    #positionTitle{
+        margin-bottom: 5vh;
+    }
+
+}

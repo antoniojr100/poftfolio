@@ -238,8 +238,203 @@ html {
 html {
   font-family: "Raleway", sans-serif;
   font-size: 125%;
+  color: #F5F5F5;
+}
+
+.mainHeader {
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+.subHeading {
+  font-size: 2.8rem;
+}
+
+#positionTitle {
+  font-size: 1.6rem;
+}
+
+.navItem {
+  font-weight: bold;
+  -webkit-transition-duration: 0.1s;
+          transition-duration: 0.1s;
+}
+.navItem:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  -webkit-transition-duration: 0.1s;
+          transition-duration: 0.1s;
+}
+
+.buttonText {
+  color: #031A6B;
+  font-weight: normal;
+}
+
+.bodyText {
+  line-height: 1.75rem;
+  font-weight: normal;
+  font-size: 1.1rem;
+}
+
+.skillsIcon {
+  color: #2A293F;
+  font-size: 3.5rem;
+}
+
+.iconName {
+  text-transform: uppercase;
+  text-align: center;
+  color: #2A293F;
+  font-weight: bold;
+}
+
+.contactIcons {
+  color: #A0D2DB;
+  font-size: 1.5rem;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 85%;
+}
+
+section {
+  padding: 3rem 0 5rem 0;
+}
+
+.blackText {
+  color: #2D2D30;
+}
+
+footer {
+  background-color: #726DA8;
+  margin: 0 auto;
+  height: 5vh;
+}
+footer p {
+  text-align: center;
+}
+
+.button {
+  padding: 0.7rem 2rem;
+  background-color: #A0D2DB;
+  border-radius: 25px;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+  text-decoration: none;
+  border-top: 1px solid #F5F5F5;
+  border-left: 1px solid #F5F5F5;
+  border-right: 1px solid #2D2D30;
+  border-bottom: 1px solid #2D2D30;
+}
+.button:hover, .button:focus .button:active {
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+  color: #A0D2DB;
+  background-color: #031A6B;
+  border-top: 1px solid #2D2D30;
+  border-left: 1px solid #2D2D30;
+  border-right: 1px solid #F5F5F5;
+  border-bottom: 1px solid #F5F5F5;
 }
 
 nav {
-  background-color: rebeccapurple;
+  margin: 0 auto;
+  height: 10vh;
+}
+nav #navContainer {
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+nav #navContainer li {
+  margin: 0.75rem 0 0 0;
+  padding: 0 2.25rem;
+}
+nav #navContainer li a {
+  color: #F5F5F5;
+  text-decoration: none;
+}
+
+#home {
+  margin: 0 auto;
+  height: 95vh;
+  background-color: #726DA8;
+}
+#home #headerContainer {
+  text-align: center;
+  margin: 15% 0;
+}
+#home #positionTitle {
+  margin-bottom: 5vh;
+}
+
+#about {
+  text-align: center;
+  background-color: #F5F5F5;
+}
+#about .aboutContainer {
+  width: 60%;
+}
+
+#skills {
+  background-color: #A0D2DB;
+}
+#skills h2 {
+  color: #031A6B;
+  text-align: center;
+}
+#skills #skillsList {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#skills #skillsList .iconContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#projects {
+  background-color: #F5F5F5;
+}
+
+#contact {
+  background-color: #031A6B;
+}
+#contact h2 {
+  text-align: center;
+}
+#contact #contactList {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }

@@ -1,0 +1,23 @@
+@use "./variables" as *;
+
+.wrapper{
+    margin: 0 auto;
+    width: 85%;
+}
+
+section{
+    padding: 3rem 0 5rem 0;
+}
+
+.blackText{
+    color: $black;
+}
+
+footer{
+    background-color: $greyPurple;
+    margin: 0 auto;
+    height: 5vh;
+    p{
+        text-align: center;
+    }
+}

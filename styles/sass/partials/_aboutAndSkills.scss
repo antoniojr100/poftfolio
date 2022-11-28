@@ -1,0 +1,28 @@
+@use "./variables" as *;
+
+#about{
+    text-align: center;
+    background-color: $whiteSmoke;
+    .aboutContainer{
+        width: 60%;
+    }
+}
+
+#skills{
+    background-color: $button1;
+    h2{
+        color: $button2;
+        text-align: center;
+    }
+    #skillsList{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-evenly; 
+        align-items: center;
+        .iconContainer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
