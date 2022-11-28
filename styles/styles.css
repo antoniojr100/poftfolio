@@ -254,6 +254,16 @@ html {
   font-size: 1.6rem;
 }
 
+.projectTitle {
+  font-size: 2rem;
+}
+
+.projectLanguages {
+  font-weight: bold;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
 .navItem {
   font-weight: bold;
   -webkit-transition-duration: 0.1s;
@@ -437,6 +447,31 @@ nav #navContainer li a {
 #projects {
   background-color: #F5F5F5;
 }
+#projects #projectList {
+  list-style-type: none;
+}
+#projects #projectList .projectItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+#projects #projectList .projectImageContainer,
+#projects #projectList .projectInfo {
+  width: 50%;
+}
+#projects #projectList .projectImageContainer img {
+  width: 100%;
+}
+#projects #projectList .projectItem {
+  margin: 3rem 0;
+}
+#projects #projectList .projectItem:hover {
+  background-color: #F7EDE2;
+}
 
 #contact {
   background-color: #3F7CAC;
@@ -486,6 +521,6 @@ nav #navContainer li a {
 #contact #formContainer #contactForm textarea {
   resize: none;
 }
-#contact #formContainer #contactForm button {
+#contact #formContainer #contactForm a {
   margin-top: 2rem;
 }

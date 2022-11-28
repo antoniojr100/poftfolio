@@ -2,4 +2,29 @@
 
 #projects{
     background-color: $whiteSmoke;
+    #projectList{
+        list-style-type: none;
+
+        .projectItem{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .projectImageContainer,
+        .projectInfo{
+            width: 50%;
+        }
+        
+        .projectImageContainer img{
+            width: 100%;
+        }
+
+        .projectItem{
+            margin: 3rem 0;
+        }
+
+        .projectItem:hover{
+            background-color: $projects;
+        }
+    }
 }
