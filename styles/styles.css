@@ -277,6 +277,10 @@ html {
   font-size: 1.1rem;
 }
 
+.footerText {
+  font-weight: bold;
+}
+
 .skillsIcon {
   color: #2A293F;
   font-size: 3.5rem;
@@ -290,8 +294,13 @@ html {
 }
 
 .contactIcons {
-  color: #A0D2DB;
-  font-size: 1.5rem;
+  color: #2A293F;
+  font-size: 2rem;
+}
+
+.formLabels {
+  margin: 0.75rem 0 0.25rem 0;
+  text-transform: uppercase;
 }
 
 .wrapper {
@@ -309,11 +318,13 @@ section {
 
 footer {
   background-color: #726DA8;
-  margin: 0 auto;
-  height: 5vh;
+  border: 1px solid #726DA8;
 }
 footer p {
   text-align: center;
+  height: 100%;
+  padding: 0;
+  margin: 2.5vh 0;
 }
 
 .button {
@@ -400,14 +411,18 @@ nav #navContainer li a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 0;
 }
 #skills #skillsList .iconContainer {
+  padding: 0 4rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -424,9 +439,12 @@ nav #navContainer li a {
 }
 
 #contact {
-  background-color: #031A6B;
+  background-color: #3F7CAC;
 }
 #contact h2 {
+  text-align: center;
+}
+#contact p {
   text-align: center;
 }
 #contact #contactList {
@@ -437,4 +455,37 @@ nav #navContainer li a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding: 0;
+}
+#contact #contactList .contactIcons {
+  padding: 0 2.25rem;
+}
+#contact #formContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+#contact #formContainer #contactForm {
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+#contact #formContainer #contactForm input,
+#contact #formContainer #contactForm textarea {
+  width: 100%;
+  border-radius: 10px;
+}
+#contact #formContainer #contactForm textarea {
+  resize: none;
+}
+#contact #formContainer #contactForm button {
+  margin-top: 2rem;
 }

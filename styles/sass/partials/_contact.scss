@@ -1,13 +1,40 @@
 @use "./variables" as *;
 
 #contact{
-    background-color: $button2;
+    background-color: $form;
     h2{
+        text-align: center;
+    }
+    p{
         text-align: center;
     }
     #contactList{
         list-style-type: none;
         display: flex;
         justify-content: center;
+        padding: 0;
+        .contactIcons{
+            padding: 0 2.25rem;
+        }
+    }
+    #formContainer{
+        display: flex;
+        justify-content: center;
+        #contactForm{
+            width: 75%;
+            display: flex;
+            flex-direction: column;
+            input,
+            textarea{
+                width: 100%;
+                border-radius: 10px;
+            }
+            textarea{
+                resize: none;
+            }
+            button{
+                margin-top: 2rem;
+            }
+        }
     }
 }

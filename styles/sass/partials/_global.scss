@@ -14,10 +14,13 @@ section{
 }
 
 footer{
-    background-color: $greyPurple;
-    margin: 0 auto;
-    height: 5vh;
+    background-color: $purple;
+    border: 1px solid $purple;
+
     p{
         text-align: center;
+        height: 100%;
+        padding: 0;
+        margin: 2.5vh 0;
     }
 }

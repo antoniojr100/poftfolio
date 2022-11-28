@@ -135,7 +135,7 @@
                     </div>
 
                     <div class="projectInfo">
-                        <h4 class="projectTitle">Project 1</h4>
+                        <h4 class="projectTitle">Electric Select</h4>
                         
                         <p class="projectLanguages">HTML, CSS, SASS</p>
                         
@@ -197,6 +197,11 @@
         <div class="wrapper">
             <h2 class="subHeading">Get in Touch</h2>
             <ul id="contactList">
+                <!-- email -->
+                <li class="contactIcons">
+                    <i class="fa-solid fa-envelope"></i>
+                </li>
+                
                 <!-- linkedIn -->
                 <li class="contactIcons">
                     <i class="devicon-linkedin-plain"></i>
@@ -206,37 +211,30 @@
                 <li class="contactIcons">
                     <i class="devicon-github-original"></i>
                 </li>
-                
-                <!-- twitter -->
-                <li class="contactIcons">
-                    <i class="devicon-twitter-original"></i>
-                </li>
-                
-                <!-- email -->
-                <li class="contactIcons">
-                    <i class="fa-solid fa-envelope"></i>
-                </li>
             </ul>
             <p class="bodyText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, iusto tempore vero nostrum recusandae facere corporis molestiae inventore quae explicabo</p>
+
+
+            <div id="formContainer">
+                <!-- Contact Form -->
+                <form action="#" id="contactForm">
+                    <!-- Name -->
+                    <label for="#" class="formLabels" id="formName">Name</label>
+                    <input type="text">
+
+                    <!-- Email Address -->
+                    <label for="#" class="formLabels" id="formEmail">Email Address</label>
+                    <input type="text">
+
+                    <!-- Message -->
+                    <label for="#" class="formLabels" id="formMessage">Message</label>
+                    <textarea id="formTextarea" cols="30" rows="10"></textarea>
+
+                    <!-- Submit -->
+                    <button class="buttonText button">Submit</button>
+                </form>
+            </div>
         </div>
-
-        <!-- Contact Form -->
-        <form action="#" id="contactForm">
-            <!-- Name -->
-            <label for="#" class="formLabels" id="formName">Name</label>
-            <input type="text">
-
-            <!-- Email Address -->
-            <label for="#" class="formLabels" id="formEmail">Email Address</label>
-            <input type="text">
-
-            <!-- Message -->
-            <label for="#" class="formLabels" id="formMessage">Message</label>
-            <textarea class="formLabels" id="formTextarea" cols="30" rows="10"></textarea>
-
-            <!-- Submit -->
-            <button class="buttonText button">Submit</button>
-        </form>
     </section>
 
     <!-- Footer -->

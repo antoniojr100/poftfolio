@@ -17,9 +17,12 @@
     #skillsList{
         list-style-type: none;
         display: flex;
-        justify-content: space-evenly; 
+        flex-wrap: wrap;
+        justify-content: center; 
         align-items: center;
+        padding: 0;
         .iconContainer{
+            padding: 0 4rem;
             display: flex;
             justify-content: center;
             align-items: center;

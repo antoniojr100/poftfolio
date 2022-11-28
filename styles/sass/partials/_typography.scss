@@ -27,6 +27,11 @@ html{
 
 }
 
+// p
+.projectLanguages{
+
+}
+
 // a
 .navItem{
     font-weight: bold;
@@ -52,12 +57,7 @@ html{
 
 // p
 .footerText{
-
-}
-
-// p
-.projectLanguages{
-
+    font-weight: bold;
 }
 
 // i
@@ -76,11 +76,12 @@ html{
 
 // i
 .contactIcons{
-    color: $button1;
-    font-size: 1.5rem;
+    color: $navy;
+    font-size: 2rem;
 }
 
 // input, textarea
 .formLabels{
-
+    margin: 0.75rem 0 0.25rem 0;
+    text-transform: uppercase;
 }
