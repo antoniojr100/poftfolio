@@ -13,6 +13,19 @@ section{
     color: $black;
 }
 
+#partnerLink{
+    text-decoration: none;
+    color: $button2;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+.contactLink{
+    text-decoration: none;
+    color: $navy;
+}
+
 footer{
     background-color: $purple;
     border: 1px solid $purple;

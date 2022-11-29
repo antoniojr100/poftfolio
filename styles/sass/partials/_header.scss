@@ -36,4 +36,22 @@ nav{
         margin-bottom: 5vh;
     }
 
+    #skipLink{
+        color: $whiteSmoke;
+        font-size: 1.75rem;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        i{
+            transition-duration: .1s;
+            &:hover,
+            &:focus,
+            &:active{
+                transition-duration: .1s;
+                transform: scale(1.5);
+            }
+        }
+    }
 }

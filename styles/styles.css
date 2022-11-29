@@ -242,12 +242,12 @@ html {
 }
 
 .mainHeader {
-  font-size: 4rem;
+  font-size: 4.2rem;
   margin-bottom: 0;
 }
 
 .subHeading {
-  font-size: 2.8rem;
+  font-size: 3.2rem;
 }
 
 #positionTitle {
@@ -255,13 +255,17 @@ html {
 }
 
 .projectTitle {
-  font-size: 2rem;
+  font-size: 2.4rem;
+  margin-bottom: 0;
 }
 
 .projectLanguages {
   font-weight: bold;
-  font-size: 0.75rem;
+  font-size: 0.9rem;
   text-transform: uppercase;
+  color: #726DA8;
+  margin-bottom: 0;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .navItem {
@@ -278,11 +282,11 @@ html {
 
 .buttonText {
   color: #031A6B;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 .bodyText {
-  line-height: 1.75rem;
+  line-height: 1.9rem;
   font-weight: normal;
   font-size: 1.1rem;
 }
@@ -324,6 +328,19 @@ section {
 
 .blackText {
   color: #2D2D30;
+}
+
+#partnerLink {
+  text-decoration: none;
+  color: #031A6B;
+}
+#partnerLink:hover {
+  text-decoration: underline;
+}
+
+.contactLink {
+  text-decoration: none;
+  color: #2A293F;
 }
 
 footer {
@@ -400,6 +417,34 @@ nav #navContainer li a {
 #home #positionTitle {
   margin-bottom: 5vh;
 }
+#home #skipLink {
+  color: #F5F5F5;
+  font-size: 1.75rem;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#home #skipLink i {
+  -webkit-transition-duration: 0.1s;
+          transition-duration: 0.1s;
+}
+#home #skipLink i:hover, #home #skipLink i:focus, #home #skipLink i:active {
+  -webkit-transition-duration: 0.1s;
+          transition-duration: 0.1s;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
 
 #about {
   text-align: center;
@@ -447,8 +492,24 @@ nav #navContainer li a {
 #projects {
   background-color: #F5F5F5;
 }
+#projects h2 {
+  text-align: center;
+}
 #projects #projectList {
   list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 #projects #projectList .projectItem {
   display: -webkit-box;
@@ -458,19 +519,43 @@ nav #navContainer li a {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  width: 100%;
 }
-#projects #projectList .projectImageContainer,
-#projects #projectList .projectInfo {
-  width: 50%;
+#projects #projectList .projectItem .projectLanguages {
+  margin-top: 0.5%;
+}
+#projects #projectList .projectItem #partnerText {
+  margin-top: 0;
+}
+#projects #projectList .projectImageContainer {
+  width: 45%;
 }
 #projects #projectList .projectImageContainer img {
   width: 100%;
 }
-#projects #projectList .projectItem {
-  margin: 3rem 0;
+#projects #projectList .projectInfo {
+  width: 55%;
+  padding: 1% 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
 }
-#projects #projectList .projectItem:hover {
-  background-color: #F7EDE2;
+#projects #projectList .projectInfo h4 {
+  margin-top: 0;
+}
+#projects #projectList .projectMargin {
+  margin: 5% 0;
 }
 
 #contact {
