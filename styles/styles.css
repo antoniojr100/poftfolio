@@ -255,7 +255,7 @@ html {
 }
 
 .projectTitle {
-  font-size: 2.4rem;
+  font-size: 2rem;
   margin-bottom: 0;
 }
 
@@ -496,6 +496,7 @@ nav #navContainer li a {
   text-align: center;
 }
 #projects #projectList {
+  padding: 0;
   list-style-type: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -528,13 +529,13 @@ nav #navContainer li a {
   margin-top: 0;
 }
 #projects #projectList .projectImageContainer {
-  width: 45%;
+  width: 50%;
 }
 #projects #projectList .projectImageContainer img {
   width: 100%;
 }
 #projects #projectList .projectInfo {
-  width: 55%;
+  width: 50%;
   padding: 1% 2%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -609,4 +610,126 @@ nav #navContainer li a {
 #contact #formContainer #contactForm a {
   margin-top: 2rem;
   text-align: center;
+}
+
+@media (max-width: 1300px) {
+  #projects #projectList .projectMargin {
+    margin: 10% 0;
+  }
+  #projects #projectList #project1,
+#projects #projectList #project2,
+#projects #projectList #project3 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #projects #projectList #project1 .projectImageContainer,
+#projects #projectList #project1 .projectInfo,
+#projects #projectList #project2 .projectImageContainer,
+#projects #projectList #project2 .projectInfo,
+#projects #projectList #project3 .projectImageContainer,
+#projects #projectList #project3 .projectInfo {
+    width: 100%;
+  }
+  #projects #projectList #project1 .projectImageContainer,
+#projects #projectList #project2 .projectImageContainer,
+#projects #projectList #project3 .projectImageContainer {
+    border-left: none;
+  }
+}
+@media (max-width: 1050px) {
+  #contact #formContainer #contactForm {
+    width: 100%;
+  }
+}
+@media (max-width: 910px) {
+  #projects #projectList .projectMargin {
+    margin: 15% 0;
+  }
+}
+@media (max-width: 750px) {
+  nav #navContainer {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0;
+  }
+  nav #navContainer li {
+    margin: 0;
+    padding: 2% 5%;
+  }
+}
+@media (max-width: 575px) {
+  nav #navContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  nav #navContainer li {
+    margin: 1% 0;
+  }
+  #home #headerContainer {
+    margin-top: 30%;
+  }
+}
+@media (max-width: 500px) {
+  .mainHeader {
+    font-size: 3.6rem;
+  }
+  #skipLink {
+    margin-top: 30%;
+  }
+  #projects #projectList .projectMargin {
+    margin: 25% 0;
+  }
+}
+@media (max-width: 450px) {
+  #contactList {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0;
+  }
+  #contactList li {
+    margin: 5%;
+    font-size: 2.5rem;
+  }
+  #projects .projectInfo .projectButtons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #projects .projectInfo .projectButtons .button {
+    margin: 5% 0;
+  }
+}
+@media (max-width: 420px) {
+  .mainHeader {
+    font-size: 3rem;
+  }
+  #positionTitle {
+    font-size: 1.2rem;
+  }
+  #skipLink {
+    margin-top: 80%;
+  }
+}
+@media (max-width: 350px) {
+  .mainHeader {
+    font-size: 2.8rem;
+  }
 }

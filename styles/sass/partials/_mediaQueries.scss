@@ -1,0 +1,134 @@
+@use "./variables" as *;
+
+@media (max-width: 1300px){
+    #projects{
+        #projectList{
+            .projectMargin{
+                margin: 10% 0;
+            }
+            #project1,
+            #project2,
+            #project3{
+                flex-direction: column;
+                .projectImageContainer,
+                .projectInfo{
+                    width: 100%;
+                }
+                .projectImageContainer{
+                    border-left: none;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 1050px){
+    #contact{
+        #formContainer{
+            #contactForm{
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width: 910px){
+    #projects{
+        #projectList{
+            .projectMargin{
+                margin: 15% 0;
+            }
+        }
+    }
+}
+
+@media (max-width: 750px){
+    nav{
+        #navContainer{
+            flex-direction: row;
+            justify-content: center;
+            padding: 0;
+            li{
+                margin: 0;
+                padding: 2% 5%; 
+            }
+        }
+    }
+}
+
+@media (max-width:575px){
+    nav{
+        #navContainer{
+            flex-direction: column;
+            li{
+                margin: 1% 0;
+            }
+        }
+    }
+
+    #home{
+        #headerContainer{
+            margin-top: 30%;
+        }
+    }
+}
+
+@media (max-width:500px){
+    .mainHeader{
+        font-size: 3.6rem;
+    }
+    #skipLink{
+        margin-top: 30%;
+    }
+
+    #projects{
+        #projectList{
+            .projectMargin{
+                margin: 25% 0;
+            }
+        }
+    }
+}
+
+@media(max-width: 450px){
+    #contactList{
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        li{
+            margin: 5%;
+            font-size: 2.5rem;
+        }
+    }
+
+    #projects{
+        .projectInfo{
+            .projectButtons{
+                display: flex;
+                flex-direction: column;
+                .button{
+                    margin: 5% 0;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:420px){
+    .mainHeader{
+        font-size: 3rem;
+    }
+    #positionTitle{
+        font-size: 1.2rem;
+    }
+    #skipLink{
+        margin-top: 80%;
+    }
+}
+
+@media(max-width: 350px){
+    .mainHeader{
+        font-size: 2.8rem;
+    }
+}
