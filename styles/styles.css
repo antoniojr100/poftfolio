@@ -436,12 +436,12 @@ nav #navContainer li a {
           align-items: center;
 }
 #home #skipLink i {
-  -webkit-transition-duration: 0.1s;
-          transition-duration: 0.1s;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
 }
 #home #skipLink i:hover, #home #skipLink i:focus, #home #skipLink i:active {
-  -webkit-transition-duration: 0.1s;
-          transition-duration: 0.1s;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
   -webkit-transform: scale(1.5);
           transform: scale(1.5);
 }

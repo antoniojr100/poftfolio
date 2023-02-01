@@ -45,11 +45,11 @@ nav{
         justify-content: flex-end;
         align-items: center;
         i{
-            transition-duration: .1s;
+            transition-duration: .3s;
             &:hover,
             &:focus,
             &:active{
-                transition-duration: .1s;
+                transition-duration: .5s;
                 transform: scale(1.5);
             }
         }
