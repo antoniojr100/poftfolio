@@ -617,24 +617,24 @@ nav #navContainer li a {
     margin: 10% 0;
   }
   #projects #projectList #project1,
-#projects #projectList #project2,
-#projects #projectList #project3 {
+  #projects #projectList #project2,
+  #projects #projectList #project3 {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
   #projects #projectList #project1 .projectImageContainer,
-#projects #projectList #project1 .projectInfo,
-#projects #projectList #project2 .projectImageContainer,
-#projects #projectList #project2 .projectInfo,
-#projects #projectList #project3 .projectImageContainer,
-#projects #projectList #project3 .projectInfo {
+  #projects #projectList #project1 .projectInfo,
+  #projects #projectList #project2 .projectImageContainer,
+  #projects #projectList #project2 .projectInfo,
+  #projects #projectList #project3 .projectImageContainer,
+  #projects #projectList #project3 .projectInfo {
     width: 100%;
   }
   #projects #projectList #project1 .projectImageContainer,
-#projects #projectList #project2 .projectImageContainer,
-#projects #projectList #project3 .projectImageContainer {
+  #projects #projectList #project2 .projectImageContainer,
+  #projects #projectList #project3 .projectImageContainer {
     border-left: none;
   }
 }
