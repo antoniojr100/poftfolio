@@ -405,6 +405,10 @@ footer p {
   text-decoration: none;
 }
 
+.menu {
+  visibility: hidden;
+}
+
 #home {
   margin: 0 auto;
   height: 95vh;
