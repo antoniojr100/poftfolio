@@ -405,10 +405,6 @@ footer p {
   text-decoration: none;
 }
 
-.menu {
-  visibility: collapse;
-}
-
 #home {
   margin: 0 auto;
   height: 95vh;
@@ -675,6 +671,7 @@ footer p {
     position: fixed;
     left: 0px;
     top: -50px;
+    height: 15vh;
     width: 100vw;
     padding: 20px;
     text-align: center;
@@ -697,7 +694,6 @@ footer p {
     /* transition */
     transition: top 1s;
     -webkit-transition: top 1s;
-    height: 10vh;
   }
   .menu a {
     margin: 20px;

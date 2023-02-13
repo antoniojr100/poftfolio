@@ -67,6 +67,7 @@
         position:fixed;
         left: 0px;
         top: -50px;
+        height: 15vh;
         width: 100vw;
         padding: 20px;
         text-align: center;
@@ -80,7 +81,6 @@
         /* transition */
         transition: top 1s;
         -webkit-transition: top 1s;
-        height: 10vh;
         a{
             margin: 20px;
             color: $whiteSmoke;
