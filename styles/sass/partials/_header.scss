@@ -34,7 +34,8 @@
     background-color: $purple;
     #headerContainer{
         text-align: center;
-        margin: 15% 0;
+        margin: 10% 0;
+        // border: 1px solid black;
     }
     #positionTitle{
         margin-bottom: 5vh;
@@ -48,8 +49,11 @@
         flex-direction: column;
         justify-content: flex-end;
         align-items: center;
+        // border: 1px solid black;
+        // margin-bottom: 250px;
         i{
             transition-duration: .3s;
+            // border: 1px solid pink;
             &:hover,
             &:focus,
             &:active{
