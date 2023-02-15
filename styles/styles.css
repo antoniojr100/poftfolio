@@ -317,6 +317,10 @@ html {
   text-transform: uppercase;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .wrapper {
   margin: 0 auto;
   width: 85%;
@@ -438,6 +442,7 @@ footer p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  scroll-behavior: smooth;
 }
 #home #skipLink i {
   -webkit-transition-duration: 0.3s;
@@ -658,57 +663,13 @@ footer p {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     padding: 0;
   }
   nav #navContainer li {
     margin: 0;
-    padding: 2% 5%;
-  }
-  #main-nav #navContainer {
-    display: none;
-  }
-  .menu {
-    visibility: visible;
-    position: fixed;
-    left: 0px;
-    top: -50px;
-    height: 15vh;
-    width: 100vw;
-    padding: 20px;
-    text-align: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -ms-flex-line-pack: center;
-        align-content: center;
-    background-color: #3b395b;
-    -webkit-box-shadow: 0px 2px 5px #3b395b;
-            box-shadow: 0px 2px 5px #3b395b;
-    font-size: 1rem;
-    /* transition */
-    transition: top 1s;
-    -webkit-transition: top 1s;
-  }
-  .menu a {
-    margin: 20px;
-    color: #F5F5F5;
-    text-decoration: none;
-  }
-  .menu a:visited {
-    color: #F5F5F5;
-  }
-  .menu:hover {
-    top: 0px;
+    padding: 2% 25px;
   }
 }
 @media (max-width: 575px) {
@@ -720,6 +681,12 @@ footer p {
   }
 }
 @media (max-width: 500px) {
+  #main-nav #navContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
   .mainHeader {
     font-size: 3.6rem;
   }
@@ -767,25 +734,6 @@ footer p {
   }
   #skipLink {
     margin-top: 80%;
-  }
-  .menu {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    padding-bottom: 20px;
-  }
-  .menu span {
-    padding-bottom: 15px;
-  }
-  .menu span #contact-nav {
-    visibility: hidden;
-  }
-  .menu:hover {
-    height: 20vh;
-  }
-  .menu:hover #contact-nav {
-    visibility: visible;
   }
 }
 @media (max-width: 350px) {

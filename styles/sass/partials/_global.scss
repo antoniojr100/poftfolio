@@ -1,5 +1,9 @@
 @use "./variables" as *;
 
+html{
+    scroll-behavior: smooth;
+}
+
 .wrapper{
     margin: 0 auto;
     width: 85%;
