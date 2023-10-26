@@ -17,39 +17,64 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/1015bcb745.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
-    <!-- Header -->
+    <!-- Header STARTS -->
     <header id="home">
         <div class="wrapper">
-            <!-- Nav -->
+            <!-- Main Nav STARTS -->
             <nav id="main-nav">
                 <ul id="navContainer">
-                    <!-- <li class="navItem"><a href="#home" class="navItem">Home</a></li> -->
                     <li class="navItem"><a href="#about" class="navItem">About</a></li>
                     <li class="navItem"><a href="#projects" class="navItem">Projects</a></li>
                     <li class="navItem"><a href="#contact" class="navItem">Contact</a></li>
                 </ul>
             </nav>
+            <!-- Main Nav ENDS -->
 
-            <!-- slideout nav -->
-            <div class="menu" id="menu">
-                <span>
-                    <a href="#about" class="navItem" id="contact-nav">About</a>
-                </span> 
-                <span>
-                    <a href="#projects" class="navItem" id="contact-nav">Projects</a>
-                </span>
-                <span>
-                    <a href="#contact" class="navItem" id="contact-nav">Contact</a>
-                </span>
-            </div>
+    <!-- Header STARTS -->
+        <!-- #main-nav  -->
+        <!-- #hamburger-button -->
+        <!-- #hamburger-menu -->
+        <!-- #header-container -->
+        <!-- #skip-link -->
+    <!-- Header ENDS -->
+
+    
+            <!-- Hamburger Button STARTS -->
+            <button id="hamburger-open">
+				<i class="fas fa-bars"></i>
+	        </button>
+            <!-- Hamburger Button ENDS -->
+
+				
+                
+            <!-- Hamburger Menu STARTS -->
+			<nav id="hamburger-menu">
+				<div class="fullScreen">
+					<button id="hamburger-close">
+						<i class="fas fa-times"></i>
+						<p class="sr-only">Click me to close the navigation.</p>
+					</button>
+					<ul>
+						<li class="navItem">
+                            <a href="#about">About</a>
+                        </li>
+						<li class="navItem">
+                            <a href="#projects">Projects</a>
+                        </li>
+						<li class="navItem">
+                            <a href="#contact">Contact</a>
+                        </li>
+					</ul>
+				</div>
+			</nav>
+
+            <!-- Hamburger Menu ENDS -->
 
 
-
-
-
-            <!-- Header Container -->
+            <!-- Header Container STARTS-->
             <div id="headerContainer">
                 <h1 class="mainHeader">Antonio Arredondo</h1>
                 <h3 id="positionTitle">Toronto based Web Developer</h3>
@@ -57,14 +82,20 @@
                     get in touch
                 </a>
             </div>
+            <!-- Header Container ENDS -->
 
+
+            <!-- Skip Link STARTS -->
             <a href="#about" id="skipLink">
                 <i class="fa-solid fa-arrow-down"></i>
             </a>
+            <!-- Skip Link ENDS -->
 
         </div>
     </header>
-    <!-- About -->
+    <!-- Header ENDS -->
+
+    <!-- About STARTS -->
     <section id="about" class="blackText">
         <div class="wrapper aboutContainer">
             <div class="headshotContainer">
@@ -74,8 +105,9 @@
             <p class="bodyText aboutText">I am a Web Developer with a passion for creating web apps and responsive websites using clean and dry code. I use my skills in web development to create apps and websites that provide good user experience and are responsive across all kinds of devices. When I'm not coding or taking breaks from coding, I am usually watching football ⚽, listening to a cassette or record from my collection 🎧 or watching the Sopranos🎬.</p>
         </div>
     </section>
+    <!-- About ENDS -->
 
-    <!-- Skills -->
+    <!-- Skills STARTS-->
     <section id="skills">
         <div class="wrapper">
             <h2 class="subHeading">Skills</h2>
@@ -88,6 +120,7 @@
 
                     <p class="iconName">Html</p>
                 </li>
+                <!-- html -->
 
                 <!-- css -->
                 <li>
@@ -97,6 +130,7 @@
 
                     <p class="iconName">Css</p>
                 </li>
+                <!-- css -->
 
                 <!-- sass -->
                 <li>
@@ -106,6 +140,7 @@
                     
                     <p class="iconName">Sass</p>
                 </li>
+                <!-- sass -->
 
                 <!-- javascript -->
                 <li>
@@ -115,6 +150,7 @@
                     
                     <p class="iconName">JavaScript</p>
                 </li>
+                <!-- javascript -->
 
                 <!-- react -->
                 <li>
@@ -124,25 +160,7 @@
                     
                     <p class="iconName">React</p>
                 </li>
-
-                <!-- jquery
-                <li>
-                    <div class="iconContainer">            
-                        <i class="devicon-react-original skillsIcon"></i>
-                    </div>
-                    
-                    <p class="iconName">React</p>
-                </li>
-
-                php
-                <li>
-                    <div class="iconContainer">            
-                        <i class="devicon-react-original skillsIcon"></i>
-                    </div>
-                    
-                    <p class="iconName">React</p>
-                </li> -->
-
+                <!-- react -->
 
                 <!-- github/git -->
                 <li>
@@ -152,6 +170,7 @@
                     
                     <p class="iconName">Github/Git</p>
                 </li>
+                <!-- github/git -->
 
                 <!-- firebase -->
                 <li>
@@ -161,7 +180,9 @@
 
                     <p class="iconName">Firebase</p>
                 </li>
+                <!-- firebase -->
 
+                <!-- responsive design -->
                 <li>
                     <div class="iconContainer">
                         <i class="fa-solid fa-mobile skillsIcon"></i>
@@ -169,8 +190,9 @@
                     
                     <p class="iconName">Responsive Design</p>
                 </li>
+                <!-- responsive design -->
 
-
+                <!-- api's -->
                 <li>
                     <div class="iconContainer">
                         <i class="fa-solid fa-window-restore skillsIcon"></i>
@@ -178,42 +200,49 @@
                     
                     <p class="iconName">RESTful APIs</p>
                 </li>
+                <!-- api's -->
 
-
+            <!-- WORKING ON STARTS -->
             </ul>
             <h2 class="subHeading">Working On</h2>
             <ul id="skillsList">
+                
+                <!-- jQuery -->
                 <li>
-                    <!-- jquery -->
                     <div class="iconContainer">
                         <i class="fa-solid fa-j skillsIcon"></i>
                     </div>
 
                     <p class="iconName">jQuery</p>
                 </li>
+                <!-- jQuery -->
 
+                <!-- typescript -->
                 <li>
-                    <!-- php -->
                     <div class="iconContainer">
                         <i class="fa-solid fa-t skillsIcon"></i>
                     </div>
 
                     <p class="iconName">TypeScript</p>
                 </li>
+                <!-- typescript -->
 
+                <!-- SQL -->
                 <li>
-                    <!-- SQL -->
                     <div class="iconContainer">
                         <i class="fa-solid fa-database skillsIcon"></i>
                     </div>
 
                     <p class="iconName">SQL</p>
                 </li>
+                <!-- SQL -->
             </ul>
         </div>
     </section>
+    <!-- Skills ENDS -->
 
-    <!-- Projects -->
+
+    <!-- Projects STARTS -->
     <section id="projects" class="blackText">
         <div class="wrapper">
 
@@ -336,9 +365,9 @@
 
         </div>
     </section>
+    <!-- Projects ENDS -->
 
-
-    <!-- Contact -->
+    <!-- Contact STARTS -->
     <section id="contact">
         <div class="wrapper">
             <h2 class="subHeading">Get in Touch</h2>
@@ -388,13 +417,19 @@
             </div>
         </div>
     </section>
+    <!-- Contact ENDS -->
 
-    <!-- Footer -->
+    <!-- Footer STARTS -->
     <footer>
         <div class="wrapper">
             <p class="footerText">Built in 2022 by Antonio Arredondo</p>
         </div>
     </footer>
+    <!-- Footer ENDS -->
 
+    <!-- jquery / script.js -->
+    <script src='https://code.jquery.com/jquery-3.4.0.min.js'
+    integrity='sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=' crossorigin='anonymous' link=''></script>
+    <script type='text/javascript' src='./script.js'></script>
 </body>
 </html>

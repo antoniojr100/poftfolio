@@ -9,6 +9,14 @@ html{
     width: 85%;
 }
 
+#hamburger-menu{
+    display: none;
+}
+
+.show#hamburger-menu{
+    display: block;
+}
+
 section{
     padding: 3rem 0 5rem 0;
 }

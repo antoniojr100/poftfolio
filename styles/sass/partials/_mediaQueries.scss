@@ -55,46 +55,33 @@
             }
         }
     }
-
-    // #main-nav{
-    //     #navContainer{
-    //         display: none;
-    //     }
-    // }
-
-    // .menu{
-    //     visibility: visible;
-    //     position:fixed;
-    //     left: 0px;
-    //     top: -50px;
-    //     height: 15vh;
-    //     width: 100vw;
-    //     padding: 20px;
-    //     text-align: center;
-    //     display: flex;
-    //     flex-direction: row;
-    //     justify-content: center;
-    //     align-content: center;
-    //     background-color: $darkPurple;
-    //     box-shadow: 0px 2px 5px $darkPurple;
-    //     font-size: 1rem;
-    //     /* transition */
-    //     transition: top 1s;
-    //     -webkit-transition: top 1s;
-    //     a{
-    //         margin: 20px;
-    //         color: $whiteSmoke;
-    //         text-decoration: none;
-    //         &:visited{
-    //             color:$whiteSmoke;
-    //         }
-    //     }
-    // }
-    
-    // .menu:hover{
-    //     top:0px;  
-    // }
 }
+
+@media(max-width: 650px){
+    #home{
+        #main-nav{
+            display: none;
+        }
+
+        #hamburger-open{
+            display: block;
+        }
+
+        #hamburger-menu .fullScreen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: $purple;
+            color: $whiteSmoke;
+            z-index: 10;
+            height: 95vh;
+        }
+    }
+}
+
+
 
 @media (max-width:575px){
     #home{
@@ -162,23 +149,6 @@
     #skipLink{
         margin-top: 80%;
     }
-
-    // .menu{
-    //     flex-direction: column;
-    //     padding-bottom: 20px;
-    //     span{
-    //         padding-bottom: 15px;
-    //         #contact-nav{
-    //             visibility: hidden;
-    //         }
-    //     }
-    //     &:hover{
-    //         height: 20vh;
-    //         #contact-nav{
-    //             visibility: visible;
-    //         }
-    //     }
-    // }
 }
 
 @media(max-width: 350px){
