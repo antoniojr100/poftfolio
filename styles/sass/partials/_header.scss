@@ -34,13 +34,15 @@
     background-color: $purple;
     #headerContainer{
         text-align: center;
-        margin: 10% 0;
+        margin: 4rem 0 5.5rem 0;
+        // border: 1px solid yellow;
     }
     #positionTitle{
         margin-bottom: 5vh;
     }
 
     #skipLink{
+        // border: 1px solid red;
         color: $whiteSmoke;
         font-size: 1.75rem;
         text-decoration: none;
@@ -49,6 +51,7 @@
         justify-content: flex-end;
         align-items: center;
         scroll-behavior: smooth;
+        // margin-bottom: 3rem;
         i{
             transition-duration: .3s;
             &:hover,

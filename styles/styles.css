@@ -465,7 +465,7 @@ footer p {
 }
 #home #headerContainer {
   text-align: center;
-  margin: 10% 0;
+  margin: 4rem 0 5.5rem 0;
 }
 #home #positionTitle {
   margin-bottom: 5vh;
@@ -754,9 +754,6 @@ footer p {
   .mainHeader {
     font-size: 3.6rem;
   }
-  #skipLink {
-    margin-top: 30%;
-  }
   #projects #projectList .projectMargin {
     margin: 25% 0;
   }
@@ -797,7 +794,7 @@ footer p {
     font-size: 1.2rem;
   }
   #skipLink {
-    margin-top: 80%;
+    margin-top: 40%;
   }
 }
 @media (max-width: 350px) {

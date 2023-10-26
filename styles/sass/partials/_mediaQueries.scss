@@ -88,6 +88,10 @@
         background-color: $purple;
         #headerContainer{
             margin-top: 30%;
+            
+        }
+        #skipLink{
+            // margin-bottom: 6rem;
         }
     }
 }
@@ -101,9 +105,6 @@
 
     .mainHeader{
         font-size: 3.6rem;
-    }
-    #skipLink{
-        margin-top: 30%;
     }
 
     #projects{
@@ -147,7 +148,7 @@
         font-size: 1.2rem;
     }
     #skipLink{
-        margin-top: 80%;
+        margin-top: 40%;
     }
 }
 
@@ -159,7 +160,7 @@
 
 // HEIGHT MEDIA QUERIES
 
-// @media(max-height: 840px){
+// @media(max-height: 900px){
 //     #skip-link{
 //         border: 1px solid red;
 //     }
