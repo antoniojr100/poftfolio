@@ -668,7 +668,7 @@ footer p {
 
 @media (max-width: 1300px) {
   #projects #projectList .projectMargin {
-    margin: 10% 0;
+    margin: 0.2rem 0 5rem 0;
   }
   #projects #projectList #project1,
   #projects #projectList #project2,
@@ -695,11 +695,6 @@ footer p {
 @media (max-width: 1050px) {
   #contact #formContainer #contactForm {
     width: 100%;
-  }
-}
-@media (max-width: 910px) {
-  #projects #projectList .projectMargin {
-    margin: 15% 0;
   }
 }
 @media (max-width: 750px) {
