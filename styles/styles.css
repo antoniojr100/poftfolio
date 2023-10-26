@@ -750,7 +750,7 @@ footer p {
     font-size: 3.6rem;
   }
   #projects #projectList .projectMargin {
-    margin: 25% 0;
+    margin: 2rem 0 3rem 0;
   }
 }
 @media (max-width: 450px) {
