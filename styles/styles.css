@@ -454,6 +454,10 @@ footer p {
   text-decoration: none;
 }
 
+#hamburger-open {
+  display: none;
+}
+
 #home {
   margin: 0 auto;
   height: 95vh;
