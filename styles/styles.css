@@ -543,6 +543,26 @@ footer p {
           align-items: center;
 }
 
+#codeClub {
+  background-color: #2A293F;
+  color: #A0D2DB;
+}
+#codeClub h2 {
+  text-align: center;
+}
+#codeClub #codeClubContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+#codeClub #codeClubContainer #codeClubLeft,
+#codeClub #codeClubContainer #codeClubRight {
+  width: 50%;
+}
+
 #projects {
   background-color: #F5F5F5;
 }

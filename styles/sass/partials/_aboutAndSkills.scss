@@ -29,3 +29,19 @@
         }
     }
 }
+
+#codeClub{
+    background-color: $navy;
+    color: $button1;
+    h2{
+        text-align: center;
+    }
+    #codeClubContainer{
+        display: flex;
+        justify-content: center;
+        #codeClubLeft,
+        #codeClubRight{
+            width: 50%;
+        }
+    }
+}
