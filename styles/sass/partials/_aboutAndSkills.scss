@@ -30,6 +30,28 @@
     }
 }
 
+#freelance{
+    background-color: $whiteSmoke;
+    color: $navy;
+    text-align: center;
+    #freelance-top{
+        // padding: 1rem 0;
+    }
+    #freelance-bottom{
+        padding: 1rem 0;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        .image-container{
+            width: 48%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+
+
 #codeClub{
     background-color: $navy;
     color: $button1;
@@ -38,10 +60,14 @@
     }
     #codeClubContainer{
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
         #codeClubLeft,
         #codeClubRight{
-            width: 50%;
+            width: 48%;
+        }
+        img{
+            width: 100%;
         }
     }
 }

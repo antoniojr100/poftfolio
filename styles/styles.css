@@ -543,6 +543,30 @@ footer p {
           align-items: center;
 }
 
+#freelance {
+  background-color: #F5F5F5;
+  color: #2A293F;
+  text-align: center;
+}
+#freelance #freelance-bottom {
+  padding: 1rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#freelance #freelance-bottom .image-container {
+  width: 48%;
+}
+#freelance #freelance-bottom .image-container img {
+  width: 100%;
+}
+
 #codeClub {
   background-color: #2A293F;
   color: #A0D2DB;
@@ -554,13 +578,19 @@ footer p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 #codeClub #codeClubContainer #codeClubLeft,
 #codeClub #codeClubContainer #codeClubRight {
-  width: 50%;
+  width: 48%;
+}
+#codeClub #codeClubContainer img {
+  width: 100%;
 }
 
 #projects {
