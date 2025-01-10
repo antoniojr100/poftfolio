@@ -561,10 +561,18 @@ footer p {
           align-items: center;
 }
 #freelance #freelance-bottom .image-container {
-  width: 48%;
+  width: 46%;
 }
 #freelance #freelance-bottom .image-container img {
   width: 100%;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+#freelance #freelance-bottom .image-container :hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
 }
 
 #codeClub {
